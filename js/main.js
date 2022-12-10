@@ -71,9 +71,9 @@ function toggleMute() {
     AblePlayerInstances[0].setMute(isMute);
 }
 
-function playVideo() {
+function playVideo(obj) {
     AblePlayerInstances[0].media.play();
-    console.log("Playing video");
+    console.log("Playing video",obj);
 }
 
 
