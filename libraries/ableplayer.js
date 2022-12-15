@@ -4485,7 +4485,7 @@ var AblePlayerInstances = [];
 	};
 
 	AblePlayer.prototype.addControls = function() {
-
+            
 		// determine which controls to show based on several factors:
 		// mediaType (audio vs video)
 		// availability of tracks (e.g., for closed captions & audio description)
