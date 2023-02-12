@@ -46,3 +46,15 @@ var updateVolume = function (_volume) {
         }
     }
 };
+function fixSafariBlackScreen() {
+    if (DS && DS.detection.browser.isSafariMac) {
+        console.log("safari fixed")
+        var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
+        layers[2].style.display = 'none';
+        layers[3].style.display = 'none';
+        setTimeout(function () {
+            layers[2].style.display = '';
+            layers[3].style.display = '';
+        }, 10);
+    }
+}

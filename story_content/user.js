@@ -695,23 +695,7 @@ function Script2()
 
 function Script3()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script4()
@@ -784,23 +768,7 @@ function Script15()
 
 function Script16()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script17()
@@ -901,23 +869,7 @@ function Script33()
 
 function Script34()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script35()
@@ -932,23 +884,7 @@ function Script36()
 
 function Script37()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script38()
@@ -1016,23 +952,7 @@ function Script48()
 
 function Script49()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script50()
@@ -1042,23 +962,7 @@ function Script50()
 
 function Script51()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script52()
@@ -1126,23 +1030,7 @@ function Script62()
 
 function Script63()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script64()
@@ -1152,23 +1040,7 @@ function Script64()
 
 function Script65()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script66()
@@ -1236,23 +1108,7 @@ function Script76()
 
 function Script77()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script78()
@@ -1262,23 +1118,7 @@ function Script78()
 
 function Script79()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script80()
@@ -1346,23 +1186,7 @@ function Script90()
 
 function Script91()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script92()
@@ -1372,23 +1196,7 @@ function Script92()
 
 function Script93()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script94()
@@ -1456,23 +1264,7 @@ function Script104()
 
 function Script105()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script106()
@@ -1482,23 +1274,7 @@ function Script106()
 
 function Script107()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script108()
@@ -1566,23 +1342,7 @@ function Script118()
 
 function Script119()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script120()
@@ -1675,23 +1435,7 @@ function Script132()
 
 function Script133()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script134()
@@ -1781,7 +1525,68 @@ function Script149()
 {
   if (DS && DS.detection.browser.isSafariMac) {
 
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     layers[2].style.display = 'none';
 
@@ -1870,7 +1675,68 @@ function Script162()
 {
   if (DS && DS.detection.browser.isSafariMac) {
 
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     layers[2].style.display = 'none';
 
@@ -1957,23 +1823,7 @@ function Script174()
 
 function Script175()
 {
-  if (DS && DS.detection.browser.isSafariMac) {
-
-    var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-
-    layers[2].style.display = 'none';
-
-    layers[3].style.display = 'none';
-
-    setTimeout(function () {
-
-        layers[2].style.display = '';
-
-        layers[3].style.display = '';
-
-    }, 10);
-
-}
+fixSafariBlackScreen()
 }
 
 function Script176()
