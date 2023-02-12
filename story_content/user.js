@@ -767,7 +767,7 @@ function Script13()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -884,7 +884,7 @@ function Script31()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -999,7 +999,7 @@ function Script46()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1109,7 +1109,7 @@ function Script60()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1219,7 +1219,7 @@ function Script74()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1329,7 +1329,7 @@ function Script88()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1439,7 +1439,7 @@ function Script102()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1549,7 +1549,7 @@ function Script116()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1658,7 +1658,7 @@ function Script130()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1762,7 +1762,7 @@ function Script146()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1851,7 +1851,7 @@ function Script159()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -1940,7 +1940,7 @@ function Script172()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
@@ -2029,7 +2029,7 @@ function Script185()
 
     var player = GetPlayer();
 
-    DS.appState.set('currentVolume', player.GetVar('volumeCount') / 10)
+    updateVolume(player.GetVar('volumeCount'));
 
   }
 }
