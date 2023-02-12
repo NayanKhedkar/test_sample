@@ -1,0 +1,126 @@
+/*
+  * Styles for Able Player demo pages
+  * Not affiliated with with Able Player itself
+*/
+body {
+     margin: 0;
+   /* font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: white;
+    font-size: 1em;
+    line-height: 1.5em; */
+    /* overflow-y: hidden; */
+}
+
+header {
+    min-height: 100px;
+    /* same as logo */
+    margin-bottom: 1.5em;
+}
+
+header img {
+    float: left;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-top: 0.75em;
+}
+
+p {
+    max-width: 60em;
+}
+
+p.goback {
+    clear: left;
+    margin: 3em 0 1em;
+}
+
+#content {
+    margin: 0 1em;
+}
+
+#wrapper {
+    float: left;
+    width: 500px;
+    /* slightly wider than #aap-player */
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#license {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    background-color: #DDD;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline-color: #cc0000;
+    /* red */
+    outline-style: solid;
+    outline-width: thick;
+    text-decoration: none;
+}
+
+/*
+ * Class example from WebVTT caption file
+ *
+ */
+.quotable {
+    font-weight: bold;
+    color: #C00;
+}
+
+.able-wrapper {
+    margin: auto;
+    /* left: 225px; */
+}
+
+.col-1 {
+    position: relative;
+    width: 68%;
+    float: left;
+}
+
+.col-2 {
+    position: relative;
+    width: 29%;
+    padding-left: 10px;
+    float: right;
+    z-index: 9999;
+}
+#transcript .able-transcript-area{
+ /* left: 5px !important; */
+ width: auto !important;
+}
+.full-width{
+   width: 100% !important;
+}
+
+.able-seekbar-wrapper{
+   /* display: none; */
+   /* visibility: hidden; */
+}
+
+.disabled{
+    pointer-events: none !important;
+}
+
+.able {
+    margin: 0 0 !important;
+}
+.able-media-container {
+    text-align: center;
+}
+

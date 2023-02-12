@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://M5_Gravity Filtration" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Weighing Liquids</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5p0cHlozUo1" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Weighing Liquids</name>
+			<description lang="und">Weighing Liquids</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ZSc7Oi8sFx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6hOAeQeV6H4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Introduction</name>
+			<description lang="und">Introduction</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6HeVpQxbkQi" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Weighing Liquids Video</name>
+			<description lang="und">Weighing Liquids Video</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/63XVOkLz0en" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 1 of 6</name>
+			<description lang="und">Question 1 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/63XVOkLz0en/5dHdycNSrW4" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 1 of 6</name>
+			<description lang="und">Question 1 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5xehIhg6nOe</correctResponsePattern>
+				<correctResponsePattern>choice_5v2Uq2nvht6</correctResponsePattern>
+				<correctResponsePattern>choice_6jGWV5jpfWt</correctResponsePattern>
+				<correctResponsePattern>choice_6l16L3CzAez</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5xehIhg6nOe</id>
+					<description lang="und">The possibility of the substance being flammable.</description>
+				</component>
+				<component>
+					<id>choice_5v2Uq2nvht6</id>
+					<description lang="und">The potential health hazard of a substance contacting my skin.</description>
+				</component>
+				<component>
+					<id>choice_6jGWV5jpfWt</id>
+					<description lang="und">The potential health hazard of a substance contacting my eyes.</description>
+				</component>
+				<component>
+					<id>choice_6l16L3CzAez</id>
+					<description lang="und">The potential health hazard of breathing in a vapor.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6KXUE3XgJ34" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 2 of 6</name>
+			<description lang="und">Question 2 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6KXUE3XgJ34/6mU8lCZ2JgG" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 2 of 6</name>
+			<description lang="und">Question 2 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6ae7mVgZKX8</correctResponsePattern>
+				<correctResponsePattern>choice_5mBU7B3YhOO</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6ae7mVgZKX8</id>
+					<description lang="und">To make it easier to transfer the liquid to my weighing vessel.</description>
+				</component>
+				<component>
+					<id>choice_5mBU7B3YhOO</id>
+					<description lang="und">To protect the stock solution from contamination.</description>
+				</component>
+				<component>
+					<id>choice_6IOmgyVnqzp</id>
+					<description lang="und">To be able to put the stock bottle away so I do not have to wear gloves.</description>
+				</component>
+				<component>
+					<id>choice_6rFs0gz0BvV</id>
+					<description lang="und">To reduce the amount of liquid present so I do not have to work in the hood.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6fVDxC2PUAK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 3 of 6</name>
+			<description lang="und">Question 3 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6fVDxC2PUAK/6ibuPnMph5f" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 3 of 6</name>
+			<description lang="und">Question 3 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5u0GQ8Jlvsu</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Di1EiBu0kf</id>
+					<description lang="und">Plastic weigh boat.</description>
+				</component>
+				<component>
+					<id>choice_5u0GQ8Jlvsu</id>
+					<description lang="und">Plastic tube with cap.</description>
+				</component>
+				<component>
+					<id>choice_62593y9PXiL</id>
+					<description lang="und">Volumetric flask.</description>
+				</component>
+				<component>
+					<id>choice_6AQEUYcwfwz</id>
+					<description lang="und">500 mL flask.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5xQV6VhZRfH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 4 of 6</name>
+			<description lang="und">Question 4 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5xQV6VhZRfH/5cLOWBAiFiS" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 4 of 6</name>
+			<description lang="und">Question 4 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6NpfMBO3n80</correctResponsePattern>
+				<correctResponsePattern>choice_6c7qSVAFZTv</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6NpfMBO3n80</id>
+					<description lang="und">Use a Pasteur or transfer pipette.</description>
+				</component>
+				<component>
+					<id>choice_6c7qSVAFZTv</id>
+					<description lang="und">Pour directly from the secondary container.</description>
+				</component>
+				<component>
+					<id>choice_6Duqan6tNjc</id>
+					<description lang="und">Measure using a serological pipette, then transfer to the weighing vessel.</description>
+				</component>
+				<component>
+					<id>choice_6dvDJqF9CAq</id>
+					<description lang="und">Measure in a graduated cylinder, then transfer to the weighing vessel.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5yoNxS0Tlh9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 5 of 6</name>
+			<description lang="und">Question 5 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5yoNxS0Tlh9/5hS8ugFYzKy" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 5 of 6</name>
+			<description lang="und">Question 5 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5yoV5u4o9rI</correctResponsePattern>
+				<correctResponsePattern>choice_6J7gGunPagH</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5yoV5u4o9rI</id>
+					<description lang="und">Remove using a transfer pipette.</description>
+				</component>
+				<component>
+					<id>choice_6J7gGunPagH</id>
+					<description lang="und">Remove the weighing vessel and pour directly into waste.</description>
+				</component>
+				<component>
+					<id>choice_6cT42zq3hbH</id>
+					<description lang="und">Wait for it to evaporate off.</description>
+				</component>
+				<component>
+					<id>choice_65QoAMzn5El</id>
+					<description lang="und">Pour the entire container into waste and start again.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62fxpYr6bvz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 6 of 6</name>
+			<description lang="und">Question 6 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62fxpYr6bvz/5xFe7t1PC68" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 6 of 6</name>
+			<description lang="und">Question 6 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5dsJ3CFBmEu</correctResponsePattern>
+				<correctResponsePattern>choice_6Q1pJgsRJhe</correctResponsePattern>
+				<correctResponsePattern>choice_5aMrVJFUN3K</correctResponsePattern>
+				<correctResponsePattern>choice_6Muegmdspez</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5dsJ3CFBmEu</id>
+					<description lang="und">Check Box 1</description>
+				</component>
+				<component>
+					<id>choice_6Q1pJgsRJhe</id>
+					<description lang="und">Check Box 2</description>
+				</component>
+				<component>
+					<id>choice_5aMrVJFUN3K</id>
+					<description lang="und">Check Box 3</description>
+				</component>
+				<component>
+					<id>choice_6Muegmdspez</id>
+					<description lang="und">Check Box 4</description>
+				</component>
+				<component>
+					<id>choice_6jEag93q03x</id>
+					<description lang="und">Check Box 5</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5mxEWGuMq74" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Result</name>
+			<description lang="und">Result</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ktLomLe3Rg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Key Takeaways</name>
+			<description lang="und">Key Takeaways</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6rWQwu72OT9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Test</name>
+			<description lang="und">Test</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6A3gTrOMNyA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video</name>
+			<description lang="und">Video</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ZKZQFIWH42" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Do not delete Completion</name>
+			<description lang="und">Do not delete Completion</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6PWRFFUlhjG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Help</name>
+			<description lang="und">Help</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5dJyTQP9X9q" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Instructions for Navigating This Module</name>
+			<description lang="und">Instructions for Navigating This Module</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6QbX7PXD5Vh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Glossary</name>
+			<description lang="und">Glossary</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/61RqJc0hGxI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Learn More</name>
+			<description lang="und">Learn More</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62nuECyecDm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video Player Help</name>
+			<description lang="und">Video Player Help</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/65Vd00ukxQW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Accessibility Options</name>
+			<description lang="und">Accessibility Options</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6UDhILlMDrf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Images from the Question 3</name>
+			<description lang="und">Images from the Question 3</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6e7OODxUPBZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Building a Safety Mindset: Our Responsibility in the Lab</name>
+			<description lang="und">Building a Safety Mindset: Our Responsibility in the Lab</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6VGl1YCpPiw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Recall Past Safety Measures in General Chemistry: Pause and Think</name>
+			<description lang="und">Recall Past Safety Measures in General Chemistry: Pause and Think</description>
+		</activity>
+	</activities>
+</tincan>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Able Player Video</title>
+
+  <!-- Dependencies -->
+  <script src="./libraries/jquery.min.js"></script>
+  <script src="./libraries/js.cookie.js"></script>
+
+  <!-- Able Player CSS -->
+  <link rel="stylesheet" href="./styles/ableplayer.css" type="text/css" />
+
+  <!-- Able Player JavaScript -->
+  <script src="./libraries/ableplayer.js"></script>
+  
+  <link rel="stylesheet" href="./styles/style.css" type="text/css">
+
+</head>
+
+<body>
+  <div class="player-wrapper">
+    <div id="player" class="col-1">
+      <!-- use the following markup for each media element -->
+      <video id="video1" preload="auto" poster="./assets/images/wwa.png" data-able-player
+        data-skin="2020" playsinline data-transcript-div='transcript' data-include-transcript="true" data-seek-interval="10" autoplay data-heading-level="3" disablePictureInPicture controlsList="nodownload">
+        <source type="video/mp4" src="./assets/video/wwa.mp4" />
+        <source type="video/webm" src="./assets/video/wwa.webm" />
+        <track kind="captions" src="./assets/video/wwa_captions_en.vtt" srclang="en" label="English captions" />
+        <track kind="descriptions" src="./assets/video/wwa_description_en.vtt" srclang="en" />
+      </video>
+    </div>
+    <div id='transcript' class="col-2"></div>
+  </div>
+  <script src="./js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function(){
+        toggleMute();
+      },2000);
+    });
+  </script>
+</body>
+
+</html>
