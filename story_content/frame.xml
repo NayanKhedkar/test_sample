@@ -6,9 +6,6 @@
     <layout name="npxnabnsnfns00000000001" font="Lato" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="npnxnanbnsnfns00000000001" font="Lato" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Lato" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns10110000001" font="Lato" controllayout="npnxnanbnsnfns10110000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns10110000001" font="Lato" controllayout="pxabnsnfns10110000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns10111101001" font="Lato" controllayout="pxabnsnfns10111101001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -16,13 +13,13 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Weighing Liquids" />
+              <option name="title_text" value="Weighing Solids" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="true" />
@@ -30,8 +27,8 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
-              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="linkright" />
               <listitem name="customlink" value="true" group="linkright">
                 <properties>
                   <property name="title" value="Help" />
@@ -61,7 +58,7 @@
                 </properties>
               </listitem>
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="transcript" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
@@ -111,7 +108,7 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="true" />
+          <option name="bottombar_enabled" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="buttonoptions">
@@ -243,78 +240,6 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
-    </control_layout>
-    <control_layout name="npnxnanbnsnfns10110000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabnsnfns10110000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabnsnfns10111101001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1650,26 +1575,21 @@
         <file bold="false" italic="false" />
       </files>
     </font>
-    <font name="Open Sans">
-      <files>
-        <file bold="false" italic="false" />
-      </files>
-    </font>
   </fonts>
   <sounds enabled="true" />
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5jWMmYJPE5w" displaytext="Weighing Liquids" expand="true" type="slide">
+        <slidelink slideid="_player.5jWMmYJPE5w" displaytext="Weighing Solids" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5jWMmYJPE5w.5ZSc7Oi8sFx" displaytext="Welcome" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.6hOAeQeV6H4" displaytext="Introduction" expand="false" type="slide" />
-            <slidelink slideid="_player.5jWMmYJPE5w.6HeVpQxbkQi" displaytext="Weighing Liquids Video" expand="false" type="slide" />
+            <slidelink slideid="_player.5jWMmYJPE5w.6HeVpQxbkQi" displaytext="Weighing Solids Video" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.63XVOkLz0en" displaytext="Question 1 of 6" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.6KXUE3XgJ34" displaytext="Question 2 of 6" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.6fVDxC2PUAK" displaytext="Question 3 of 6" expand="false" type="slide" />
-            <slidelink slideid="_player.5jWMmYJPE5w.5xQV6VhZRfH" displaytext="Question 4 of 6" expand="false" type="slide" />
-            <slidelink slideid="_player.5jWMmYJPE5w.5yoNxS0Tlh9" displaytext="Question 5 of 6" expand="false" type="slide" />
+            <slidelink slideid="_player.5jWMmYJPE5w.5Yi2bk3cZZc" displaytext="Question 4 of 6" expand="false" type="slide" />
+            <slidelink slideid="_player.5jWMmYJPE5w.5x9Agx7KzUc" displaytext="Question 5 of 6" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.62fxpYr6bvz" displaytext="Question 6 of 6" expand="false" type="slide" />
             <slidelink slideid="_player.5jWMmYJPE5w.5ktLomLe3Rg" displaytext="Key Takeaways" expand="false" type="slide" />
           </links>
@@ -1687,76 +1607,15 @@
             <slidelink slideid="_player.6eyjZ57KkHY.5dJyTQP9X9q" displaytext="Instructions for Navigating This Module" expand="false" type="slide" />
             <slidelink slideid="_player.6eyjZ57KkHY.65Vd00ukxQW" displaytext="Accessibility Options" expand="false" type="slide" />
             <slidelink slideid="_player.6eyjZ57KkHY.61RqJc0hGxI" displaytext="Learn More" expand="false" type="slide" />
-            <slidelink slideid="_player.6eyjZ57KkHY.6UDhILlMDrf" displaytext="Images from the Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6eyjZ57KkHY.6XUqmVBC7CG" displaytext="Images from the Question 3" expand="false" type="slide" />
             <slidelink slideid="_player.6eyjZ57KkHY.6QbX7PXD5Vh" displaytext="Glossary" expand="false" type="slide" />
             <slidelink slideid="_player.6eyjZ57KkHY.62nuECyecDm" displaytext="Video Player Help" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6HCkLCBTrX2" displaytext="Safety Culture and RAMP Review" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6HCkLCBTrX2.6e7OODxUPBZ" displaytext="Building a Safety Mindset: Our Responsibility in the Lab" expand="false" type="slide" />
-            <slidelink slideid="_player.6HCkLCBTrX2.6VGl1YCpPiw" displaytext="Recall Past Safety Measures in General Chemistry: Pause and Think" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
-  <transcript_data>
-    <slidetranscripts>
-      <slidetranscript slideid="6HCkLCBTrX2.6e7OODxUPBZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="0" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="8"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Period" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="A positive lab safety culture is key to a great lab experience. &amp;#xD;Safety culture in the lab is the shared beliefs, behaviors, and attitudes that exist in that space. &amp;#xD;Culture is the atmosphere created by those shared beliefs and attitudes that shapes our behavior. &amp;#xD;Sometimes our prior perceptions and beliefs about safety align with those of our labmates, and sometimes they don’t; however, when working together in the lab, it is important to share a safety mindset, because it is necessary that everyone working within a laboratory is following safe practices at all times.&amp;#xA;"&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="14" ForegroundColor="#464646" LinkColor="#464646" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="0" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="8"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Period" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Select the arrows to move between panels within this page.&amp;#xD;This video explains more about safety mindset and safety culture in the lab. &amp;#xD;Select the play button to start the video."&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="14" ForegroundColor="#464646" LinkColor="#464646" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6HCkLCBTrX2.6VGl1YCpPiw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" TrailingMargin="0" LineSpacingRule="Single" LineSpacing="20" SpacingAfter="8"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Now that you have learned more about safety culture in the lab, let's think about your past experiences. &amp;#xA;"&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="14" ForegroundColor="#464646" LinkColor="#464646" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" TrailingMargin="0" LineSpacingRule="Single" LineSpacing="20" SpacingAfter="8"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="What are some of the important safety measures that you remember from your previous lab-based courses?&amp;#xA;"&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="14" ForegroundColor="#464646" LinkColor="#464646" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" TrailingMargin="0" LineSpacingRule="Single" LineSpacing="20" SpacingAfter="8"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Pause to think about this for a moment and then type in what you recall."&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="14" ForegroundColor="#464646" LinkColor="#464646" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-    </slidetranscripts>
-  </transcript_data>
+  <resource_data description="" />
+  <transcript_data />
   <glossary_data />
 </bwFrame>

@@ -27468,8 +27468,8 @@ var Cmi5;
 }());
 /* declare globals that are set via Desktop token replacement for configuration */
 var TC_COURSE_ID = "M5_Gravity_Filtration";
-var TC_COURSE_NAME = "Weighing Liquids";
-var TC_COURSE_DESC = "Weighing Liquids";
+var TC_COURSE_NAME = "Weighing Solids";
+var TC_COURSE_DESC = "Weighing Solids";
 var TC_RECORD_STORES = "[]";
 
 /* declare other globals we'll use */

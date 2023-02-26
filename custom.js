@@ -4,6 +4,7 @@
         if (typeof GetPlayer != 'undefined') {
             clearInterval(check);
             setTimeout(function () {
+				hideBottomBar();
                 onVolumeChange(GetPlayer());
             }, 1000)
             setDevice(GetPlayer());
@@ -38,9 +39,14 @@
 var updateVolume = function (_volume) {
     if (_volume != undefined) {
         var player = GetPlayer();
-        var volume = _volume || player.GetVar('volume') / 10;
+        var volume = _volume / 10 || player.GetVar('volume') / 10;
         try {
             DS.appState.setVolume(volume);
+            if (DS.appState.get('currentVolume') != volume) {
+                //update again
+                DS.appState.setVolume(volume);
+                DS.appState.set('currentVolume', volume);
+            }
         } catch (error) {
             console.log(error);
         }
@@ -50,11 +56,24 @@ function fixSafariBlackScreen() {
     if (DS && DS.detection.browser.isSafariMac) {
         console.log("safari fixed")
         var layers = document.querySelectorAll('.slide-layer.shown:not(.base-layer)');
-        layers[2].style.display = 'none';
-        layers[3].style.display = 'none';
+        if (layers[2]) {
+            layers[2].style.display = 'none';
+        }
+        if (layers[3]) {
+            layers[3].style.display = 'none';
+        }
+        
         setTimeout(function () {
-            layers[2].style.display = '';
-            layers[3].style.display = '';
+            layers.forEach(function(layer){
+              if(layer){
+                layer.style.display = '';
+              }
+            })
         }, 10);
+    }
+}
+function hideBottomBar() {
+    if (document.querySelector('#bottom-bar')) {
+        document.querySelector('#bottom-bar').style.display = 'none';
     }
 }
