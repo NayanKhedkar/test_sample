@@ -30,6 +30,7 @@ var defaultDescHeight;
 var defaultAbleWrapperHeight;
 var windowHeight = window.parent.document.querySelector('.webobject').clientHeight || $(window).height();
 
+window.parent.document.querySelector('.webobject iframe').setAttribute("allow", "autoplay");
 
 if (!window.parent.GetPlayer) {
     window.parent.GetPlayer = function () {
@@ -276,13 +277,14 @@ function play() {
 }
 
 function pause() {
-    debugger;
+    debugger
     if (AblePlayerInstances[0]) {
         AblePlayerInstances[0].pauseMedia();
     }
 }
 
 function pauseAudioDescription() {
+    debugger;
     if (AblePlayerInstances[0] && AblePlayerInstances[0].synth) {
         AblePlayerInstances[0].synth.pause();
         //synth.cancel();
@@ -290,6 +292,7 @@ function pauseAudioDescription() {
 }
 
 function resumeAudioDescription() {
+    debugger;
     if (AblePlayerInstances[0] && AblePlayerInstances[0].synth) {
         AblePlayerInstances[0].synth.resume();
     }

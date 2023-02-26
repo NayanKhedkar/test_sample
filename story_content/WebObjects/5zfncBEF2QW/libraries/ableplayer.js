@@ -7732,7 +7732,7 @@ var AblePlayerInstances = [];
 
 				// browser supports speech synthesis 
 
-				this.synth = window.speechSynthesis;
+				this.synth = window.parent.speechSynthesis;
 
 				if (context === 'init') { 
 					// handle a click on anything, in case the user 
@@ -8087,7 +8087,6 @@ var AblePlayerInstances = [];
 	};
 
 	AblePlayer.prototype.showDescription = function(now) {
-        debugger
 		if (!this.hasClosedDesc || this.swappingSrc || !this.descOn || this.descMethod === 'video') {			
 			return;
 		}
@@ -8284,26 +8283,18 @@ var AblePlayerInstances = [];
 				// If there's a mismatch between any of these, the description will likely be unintelligible
 				utterance.lang = this.lang;
 				utterance.onstart = function(e) { 
-					debugger
 					// utterance has started 
 				};
 				utterance.onpause = function(e) { 
 					// utterance has paused 
 				};
 				utterance.addEventListener('end', function (event) {
-					console.log("Utterance has finished being spoken after" + event.elapsedTime + "seconds.");
 					if (thisObj.pausedForDescription) {
 						thisObj.playMedia();
 					}
 				});
 				utterance.addEventListener('boundary', function (event) {
 					console.log("Utterance boundry", event);
-				});
-				utterance.addEventListener('pause', function (event) {
-					console.log("Utterance pause", event);
-				});
-				utterance.addEventListener('resume', function (event) {
-					console.log("Utterance resume", event);
 				});
 				utterance.addEventListener('error', function (event) {
 					console.log("Utterance error", event);
@@ -8343,6 +8334,12 @@ var AblePlayerInstances = [];
 					this.synth.resume();					
 				}
 				this.synth.speak(utterance);
+				var speechDuration = utterance.text.length * 100;
+				setTimeout(function () {
+					if(this.speakingDescription){
+						console.log('Speech finished playing,Onended not working');
+					}
+				}, speechDuration);
 				this.speakingDescription = true; 
 			}
 		}
