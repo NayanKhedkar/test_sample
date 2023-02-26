@@ -8228,7 +8228,7 @@ var AblePlayerInstances = [];
 		//	This is for testing only; not recommended for production
 		// 	unless the voice select field is also removed from the Prefs dialog
 		var useFirstVoice = false;
-	
+	    var onEnded = false
 		if (!this.speechEnabled) {
 			// voices array failed to load the first time. Try again
 			this.initSpeech('desc');
@@ -8289,6 +8289,7 @@ var AblePlayerInstances = [];
 					// utterance has paused 
 				};
 				utterance.addEventListener('end', function (event) {
+					onEnded = true
 					if (thisObj.pausedForDescription) {
 						thisObj.playMedia();
 					}
@@ -8302,6 +8303,7 @@ var AblePlayerInstances = [];
 				utterance.onend = function(e) {
 					// utterance has ended 
 					this.speakingDescription = false; 
+					onEnded = true;
 					timeElapsed = e.elapsedTime; 
 					// As of Firefox 95, e.elapsedTime is expressed in seconds 
 					// Other browsers (tested in Chrome & Edge) express this in milliseconds 
@@ -8334,12 +8336,20 @@ var AblePlayerInstances = [];
 					this.synth.resume();					
 				}
 				this.synth.speak(utterance);
-				var speechDuration = utterance.text.length * 100;
-				setTimeout(function () {
-					if(this.speakingDescription){
-						console.log('Speech finished playing,Onended not working');
-					}
-				}, speechDuration);
+				//extra code adddd to handle utterance end for safari
+				if (/Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor)) {
+					var speechDuration = utterance.text.length * 100;
+					setTimeout(function () {
+						if (!this.onEnded) {
+							console.log('Play video for safari');
+							// if (thisObj.pausedForDescription) {
+							// 	thisObj.playMedia();
+							// }
+						}
+					}.bind(this), speechDuration);
+				}
+				
+				
 				this.speakingDescription = true; 
 			}
 		}
